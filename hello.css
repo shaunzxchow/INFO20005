@@ -1,0 +1,177 @@
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#hero {
+  background-image: url("hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 24px;
+}
+
+.button {
+  background-color: #333;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+#featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dish {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.dish img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.dish h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.dish p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* About Styles */
+
+#about {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* Contact Styles */
+
+#contact {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
