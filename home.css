@@ -1,0 +1,70 @@
+/* CSS File: styles.css */
+
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #0B1315;
+    color: #99A9AD;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+.nav-item {
+    color: #99A9AD;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #FFDE9F;
+}
+
+#search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    border: 2px solid #FFDE9F;
+    color: #99A9AD;
+    background-color: #0B1315;
+}
+
+h1, h2, h3 {
+    font-family: 'Elsie', cursive;
+    color: #FFDE9F;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-btn {
+    background-color: #FFDE9F;
+    border: none;
+    color: #0B1315;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
