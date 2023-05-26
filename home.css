@@ -34,12 +34,18 @@ body {
     color: #FFDE9F;
 }
 
+#restaurant-logo {
+    width: 50px; 
+    height: auto; 
+  }
+
 #search-bar {
     display: flex;
     align-items: center;
     background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 5px 10px;
+    border: 1px solid #FFDE9F;
+    border-radius: 0;
+    padding: 5px;
 }
 
 #search {
@@ -47,7 +53,28 @@ body {
     color: #99A9AD;
     background-color: transparent;
     width: 200px;
+    padding: 5px;
+    height: 20px; /* Adjust the height as desired */
 }
+
+#search-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px; /* Adjust the width as desired */
+    height: 100%; /* Set the height to match the search box */
+    background-color: #FFDE9F;
+    margin-left: 5px; /* Add some space between the search input and icon */
+}
+
+#search-bar img {
+    width: 14px; /* Adjust the width as desired */
+    height: 14px; /* Adjust the height as desired */
+}
+
+
+
+
 
 /* Home Section */
 #home {
