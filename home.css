@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Elsie';
+    src: url('path/to/elsie-font.woff2') format('woff2'),
+         url('path/to/elsie-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 body {
     font-family: 'Lexend', sans-serif;
     background-color: #0B1315;
@@ -25,7 +34,7 @@ body {
 }
 
 .nav-item {
-    color: #99A9AD;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -35,9 +44,24 @@ body {
 }
 
 #restaurant-logo {
-    width: 50px; 
-    height: auto; 
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the image and text as desired */
+    font-family: 'Elsie', Arial, sans-serif;
+    font-size: 24px; /* Adjust the font size as desired */
+    font-weight: bold; /* Adjust the font weight as desired */
   }
+  
+  #logo-image {
+    width: 50px; /* Adjust the image width as desired */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  #logo {
+    letter-spacing: 1px; /* Adjust the letter spacing as desired */
+    color: #FFDE9F;
+  }
+  
 
 #search-bar {
     display: flex;
@@ -57,23 +81,53 @@ body {
     height: 20px; /* Adjust the height as desired */
 }
 
-#search-bar a {
+#search-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Adjust the width as desired */
+    height: 30px; /* Adjust the height as desired */
+    background-color: #FFDE9F;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #search-button img {
+    width: 20px; /* Adjust the icon size as desired */
+    height: 20px; /* Adjust the icon size as desired */
+  }
+  
+
+#cart {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px; /* Adjust the width as desired */
-    height: 100%; /* Set the height to match the search box */
+    width: 40px; /* Adjust the width of the circle as desired */
+    height: 40px; /* Adjust the height of the circle as desired */
+    border-radius: 50%;
     background-color: #FFDE9F;
-    margin-left: 5px; /* Add some space between the search input and icon */
-}
-
-#search-bar img {
-    width: 14px; /* Adjust the width as desired */
-    height: 14px; /* Adjust the height as desired */
-}
-
-
-
+  }
+  
+  #cart img {
+    width: 20px; /* Adjust the icon size as desired */
+    z-index: 1;
+  }
+  
+  
+  #cart:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 30px; /* Adjust the circle size as desired */
+    height: 30px; /* Adjust the circle size as desired */
+    border-radius: 50%;
+    background-color: #FFDE9F;
+    z-index: -1; /* Position the pseudo-element behind the icon */
+  }  
 
 
 /* Home Section */
