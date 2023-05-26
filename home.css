@@ -195,12 +195,24 @@ body {
 }
 
 .info-box {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.info-box-content {
+    display: flex;
+    align-items: center;
 }
 
 .info-box img {
     max-width: 50px;
     height: auto;
+    margin-right: 10px;
+}
+
+.info-text {
+    text-align: left;
 }
 
 /* Chef Info Section */
@@ -266,6 +278,25 @@ footer {
     margin-right: 0;
 }
 
+/* Button Styles */
+.btn {
+    background-color: #FFDE9F;
+    color: #0B1315;
+    font-family: 'Lexend', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0B1315;
+    color: #FFDE9F;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     /* Navbar */
@@ -289,15 +320,26 @@ footer {
 
     /* Home Section */
     #home-content {
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        text-align: center;
+        justify-content: space-between;
+    }
+
+    .home-text {
+        flex: 1;
+        text-align: left;
+    }
+
+    .dish-image-container {
+        flex: 1;
+        text-align: right;
     }
 
     .dish-img {
-        width: 100%;
-        max-width: 300px;
-        margin-top: 20px;
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
     }
 
     /* About Section */
