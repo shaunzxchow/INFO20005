@@ -84,10 +84,16 @@ body {
     padding: 80px 0;
 }
 
-.about-images {
+.about-images-text {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.about-images {
+    flex: 1;
+    margin-right: 20px;
 }
 
 .about-images img {
@@ -97,7 +103,7 @@ body {
 }
 
 .about-content {
-    text-align: center;
+    flex: 2;
 }
 
 .about-content h2 {
