@@ -5,15 +5,12 @@
     <!-- Including the Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Elsie&family=Lexend&display=swap" rel="stylesheet">
     <!-- Including the CSS -->
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <div id="restaurant-logo">
-        <img src="assets/navbar/biryani-house-logo.png" id="logo-image">
-        <div id="logo">Biryani House</div>
-    </div>
+        <img src="logo.png" alt="Restaurant Logo">
         <ul>
             <li><a href="#home" class="nav-item">Home</a></li>
             <li><a href="#menu" class="nav-item">Menu</a></li>
@@ -22,95 +19,59 @@
         </ul>
         <div id="search-bar">
             <input type="text" id="search" placeholder="Search">
-            <a href="#" id="search-button"><img src="assets/Navbar/search.png" alt="Search"></a>
-          </div>
-        <a href="#cart" id="cart"><img src="assets/Navbar/cart.png"></a>
+            <a href="#cart"><img src="cart-icon.png" alt="Cart Icon"></a>
+        </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home">
+        <h1>Savour the Flavours of Tradition</h1>
+        <hr class="line-separator">
         <div id="home-content">
-            <div class="home-text">
-                <h1>Savour the Flavours of Tradition</h1>
-                <hr class="line-separator">
-                <p>Embark on a Culinary Journey Through India's Rich Heritage and Time-Honored Recipes.</p>
-            </div>
-            <div class="dish-image-container">
-                <img src="assets/home-page/landing-dish.png" alt="Dish Image" class="dish-img">
-            </div>
+            <p>Embark on a Culinary Journey Through India's Rich Heritage and Time-Honored Recipes.</p>
+            <img src="dish.jpg" alt="Dish Image" class="dish-img">
         </div>
     </section>
 
     <!-- Hero Image Section -->
     <section id="hero-image">
-        <img src="assets/cover1.png" alt="Hero Image">
+        <img src="hero-image.jpg" alt="Hero Image">
     </section>
 
-       <!-- About Section -->
-       <section id="about">
-        <div class="about-images-text">
-            <div class="about-images">
-                <img src="square.jpg" alt="Square Image">
-                <img src="rectangle.jpg" alt="Rectangle Image">
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-images">
+            <img src="square.jpg" alt="Square Image">
+            <img src="rectangle.jpg" alt="Rectangle Image">
+        </div>
+        <div class="about-content">
+            <h4>OUR RESTAURANT</h4>
+            <h2>Discover the Essence of India in Melbourne</h2>
+            <p>At Biryani House, we celebrate India's rich culinary heritage by offering a diverse array of exquisite dishes inspired by the flavors and traditions of various regions across the country. Our chefs take great pride in crafting each dish with authentic ingredients and time-honored techniques to ensure a truly remarkable dining experience.</p>
+            <div class="info-box">
+                <img src="icon.png" alt="Icon">
+                <h3>Authentic Environment</h3>
+                <p>Experience India's warmth and vibrancy in our inviting ambiance.</p>
             </div>
-            <div class="about-content">
-                <h4>OUR RESTAURANT</h4>
-                <h2>Discover the Essence of India in Melbourne</h2>
-                <p>At Biryani House, we celebrate India's rich culinary heritage by offering 
-                    a diverse array of exquisite dishes inspired by the flavors and traditions 
-                    of various regions across the country. Our chefs take great pride in crafting 
-                    each dish with authentic ingredients and time-honored techniques to ensure a 
-                    truly remarkable dining experience.</p>
-                <div class="info-box">
-                    <div class="info-box-content">
-                        <img src="authentic-environment.png" alt="Icon">
-                        <div class="info-text">
-                            <h3>Authentic Environment</h3>
-                            <p>Experience India's warmth and vibrancy in our inviting ambiance.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-content">
-                        <img src="hygienic-food.png" alt="Icon">
-                        <div class="info-text">
-                            <h3>Hygienic Food</h3>
-                            <p>Enjoy delicious, clean, and safe culinary delights.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="btn" onclick="location.href='#menu'">Explore Us</button>
+            <div class="info-box">
+                <img src="icon.png" alt="Icon">
+                <h3>Hygienic Food</h3>
+                <p>Enjoy delicious, clean, and safe culinary delights.</p>
             </div>
+            <button onclick="location.href='#menu'">Explore Us</button>
         </div>
     </section>
 
-    <!-- Chef Info Section -->
-    <section id="chefinfo">
-        <div class="about-images-text">
-            <div class="about-images">
-                <img src="chef1.jpg" alt="Chef 1 Image">
-                <img src="chef2.jpg" alt="Chef 2 Image">
-            </div>
-            <div class="chefinfo-content">
-                <h4>CHEF'S SECRETs</h4>
-                <h2>Authentic and Flavorful Indian Cuisine a Memorable Occasion.</h2>
-                <p>At Biryani House, we are dedicated to providing our guests with the highest quality food and service. Our chefs use only the freshest ingredients, and our spices are carefully selected for their aroma and flavour.</p>
-                <h3>Contact Us</h3>
-                <h2>03 93 294 323</h2>
-                <button class="btn" onclick="location.href='#menu'">Order Online</button>
-            </div>
-        </div>
-    </section>
     <!-- Footer -->
     <footer>
         <div class="footer-column">
-            <h3>Biryani House</h3>
-            <p>Located in the bustling heart of Melbourne CBD, Biryani House welcomes you to indulge in our delectable Indian cuisine.</p>
+            <h2>Biryani House</h2>
+            <p>We are located at 123 Biryani Street, Flavor Town, Spice City.</p>
         </div>
         <div class="footer-column">
-            <h2>Working hours</h2>
+            <h3>Working hours</h3>
             <p>Monday - Sunday: 11am - 11pm</p>
-            <button class="btn" onclick="location.href='#contact'">Contact Us</button>
+            <button onclick="location.href='#contact'">Contact Us</button>
         </div>
     </footer>
 </body>
