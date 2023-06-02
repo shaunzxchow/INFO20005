@@ -1612,6 +1612,28 @@ body {
     display: none;
 }
 
+.description-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart button {
+    background-color: #FFDE9F;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart button i {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
 /*====== about-page start ========*/
 .about-bg {
     background-image: url(../images/about-bg.png);
