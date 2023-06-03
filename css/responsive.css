@@ -289,7 +289,7 @@ Medium Screen - Others
 		font-size: 44px;
 	}
 
-	.test-rvcnt {
+	.testimonial-content {
 		max-width: 785px;
 	}
 
@@ -475,11 +475,11 @@ Medium Screen - Others
 		font-size: 44px;
 	}
 
-	.abuttest-item p {
+	.testimonial-content-2 p {
 		font-size: 20px;
 	}
 
-	.abuttest-item a {
+	.testimonial-content-2 a {
 		font-size: 18px;
 	}
 
@@ -718,7 +718,7 @@ Small Screen - Tablate
 		margin-bottom: 38px;
 	}
 
-	.test-rvcnt {
+	.testimonial-content {
 		max-width: 580px;
 	}
 
@@ -1006,11 +1006,11 @@ Small Screen - Tablate
 		font-size: 36px;
 	}
 
-	.abuttest-item p {
+	.testimonial-content-2 p {
 		font-size: 20px;
 	}
 
-	.abuttest-item a {
+	.testimonial-content-2 a {
 		font-size: 18px;
 	}
 
@@ -1710,11 +1710,11 @@ Small Screen - Mobile
 		font-size: 36px;
 	}
 
-	.abuttest-item p {
+	.testimonial-content-2 p {
 		font-size: 20px;
 	}
 
-	.abuttest-item a {
+	.testimonial-content-2 a {
 		font-size: 18px;
 	}
 
