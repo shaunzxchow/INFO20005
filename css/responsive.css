@@ -414,24 +414,24 @@ Medium Screen - Others
 		max-width: 21px;
 	}
 
-	.serv-upper h2 {
+	.services-title h2 {
 		font-size: 48px;
 	}
 
-	.serv-item span {
+	.service-item span {
 		width: 85px;
 		height: 85px;
 	}
 
-	.serv-item span img {
+	.service-item span img {
 		max-width: 45px;
 	}
 
-	.serv-item h4 {
+	.service-item h4 {
 		font-size: 26px;
 	}
 
-	.serv-item p {
+	.service-item p {
 		font-size: 14px;
 	}
 
@@ -945,24 +945,24 @@ Small Screen - Tablate
 		max-width: 21px;
 	}
 
-	.serv-upper h2 {
+	.services-title h2 {
 		font-size: 48px;
 	}
 
-	.serv-item span {
+	.service-item span {
 		width: 85px;
 		height: 85px;
 	}
 
-	.serv-item span img {
+	.service-item span img {
 		max-width: 45px;
 	}
 
-	.serv-item h4 {
+	.service-item h4 {
 		font-size: 26px;
 	}
 
-	.serv-item p {
+	.service-item p {
 		font-size: 14px;
 	}
 
@@ -1044,13 +1044,13 @@ Small Screen - Tablate
 		margin-top: 30px;
 	}
 
-	.serv-main {
+	.services-main {
 	    grid-template-columns: repeat(2, 1fr);
 	    grid-gap: 30px;
 	    padding-top: 40px;
 	}
 
-	.serv-item {
+	.service-item {
 		margin-top: 20px;
 	}
 
@@ -1492,10 +1492,6 @@ Small Screen - Mobile
 		margin-top: 35px;
 	}
 
-	.dish-right .parag {
-		display: none;
-	}
-
 	.dcart-left p {
 		font-size: 13px;
 	}
@@ -1648,25 +1644,25 @@ Small Screen - Mobile
 		max-width: 21px;
 	}
 
-	.serv-upper h2 {
+	.services-title h2 {
 		font-size: 48px;
 	}
 
-	.serv-item span {
+	.service-item span {
 		width: 85px;
 		height: 85px;
 	}
 
-	.serv-item span img {
+	.service-item span img {
 		max-width: 45px;
 	}
 
-	.serv-item h4 {
+	.service-item h4 {
 		font-size: 22px;
 		margin: 16px 0 12px;
 	}
 
-	.serv-item p {
+	.service-item p {
 		font-size: 11px;
 	}
 
@@ -1748,13 +1744,13 @@ Small Screen - Mobile
 		margin-top: 12px;
 	}
 
-	.serv-main {
+	.services-main {
 	    grid-template-columns: repeat(2, 1fr);
 	    grid-gap: 12px;
 	    padding-top: 25px;
 	}
 
-	.serv-item {
+	.service-item {
 		margin-top: 20px;
 	}
 
@@ -1801,16 +1797,16 @@ Small Screen - Mobile
 		padding-bottom: 40px;
 	}
 
-	.serv-upper h6 {
+	.services-title h6 {
 		font-size: 14px;
 	}
 
-	.serv-upper h6 img {
+	.services-title h6 img {
 		max-width: 15px;
 		margin: 0 2px;
 	}
 
-	.serv-upper h2 {
+	.services-title h2 {
 		font-size: 25px;
 		margin-top: 14px;
 	}
@@ -1836,11 +1832,11 @@ Small Screen - Mobile
 		width: 100%;
 	}
 
-	.shape-index_mbl {
+	.shape-index-mobile {
 		display: block;
 	}
 
-	.shape-index_mbl img {
+	.shape-index-mobile img {
 		width: 100%;
 		height: 107px;
 		object-fit: cover;
