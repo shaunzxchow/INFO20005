@@ -308,7 +308,7 @@ body {
     height: 100vh;
     position: fixed;
     top: 0;
-    display: none;
+    display: block;
     left: -100%;
     transition: .3s;
 }
@@ -375,14 +375,6 @@ body {
 
 .off-canvas-bottom span img {
     max-width: 28px;
-}
-.off-canvas-menu {
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
-}
-
-.off-canvas-menu.open {
-    transform: translateX(0);
 }
 
 
