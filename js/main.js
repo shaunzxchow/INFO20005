@@ -51,6 +51,19 @@
             $('.ofcavas-menu').removeClass('current');
         });
 
+        // Hamburger menu
+        var headerLeftBtn = document.querySelector(".header-left button");
+        var ofcanvasMenu = document.querySelector(".ofcavas-menu");
+        var offcanvasBottom = document.querySelector(".offcanvas-bottom span");
+  
+        headerLeftBtn.addEventListener("click", function () {
+         ofcanvasMenu.classList.add("current");
+        });
+  
+        offcanvasBottom.addEventListener("click", function () {
+          ofcanvasMenu.classList.remove("current");
+        });
+
 
         // accordian
         jQuery(".accordian-title").click(function() {
