@@ -45,5 +45,8 @@
             return false;
         });
     });
+    function addToCartFeedback() {
+        alert("Item added to cart!");
+    }
 
 })(jQuery);

@@ -1652,11 +1652,11 @@ body {
     padding: 135px 0 160px;
 }
 
-.serv-upper {
+.services-title {
     text-align: center;
 }
 
-.serv-upper h6 {
+.services-title h6 {
     font-weight: 700;
     font-size: 20px;
     text-align: center;
@@ -1667,12 +1667,12 @@ body {
     justify-content: center;
 }
 
-.serv-upper h6 img {
+.services-title h6 img {
     max-width: 24px;
     margin: 0 6px;
 }
 
-.serv-upper h2 {
+.services-title h2 {
     font-family: 'Elsie', cursive;
     font-weight: 400;
     font-size: 60px;
@@ -1681,7 +1681,7 @@ body {
     margin-top: 18px;
 }
 
-.serv-main {
+.services-main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
@@ -1689,7 +1689,7 @@ body {
     padding-top: 75px;
 }
 
-.serv-item span {
+.service-item span {
     width: 100px;
     height: 100px;
     display: flex;
@@ -1700,11 +1700,11 @@ body {
     margin: 0 auto;
 }
 
-.serv-item span img {
+.service-item span img {
     max-width: 60px;
 }
 
-.serv-item h4 {
+.service-item h4 {
     font-family: 'Elsie', cursive;
     font-weight: 400;
     font-size: 32px;
@@ -1713,7 +1713,7 @@ body {
     margin: 20px 0 18px;
 }
 
-.serv-item p {
+.service-item p {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
@@ -2051,6 +2051,6 @@ body {
     opacity: 0.8;
 }
 
-.shape-index_mbl {
+.shape-index-mobile {
     display: none;
 }
