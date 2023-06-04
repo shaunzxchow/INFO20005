@@ -301,8 +301,8 @@ body {
     opacity: 0.9;
 }
 
-/*ofcanvas menu*/
-.ofcavas-menu {
+/*off-canvas menu*/
+.off-canvas-menu {
     background: #211F1F;
     width: 165px;
     height: 100vh;
@@ -313,40 +313,40 @@ body {
     transition: .3s;
 }
 
-.ofcavas-menu.current {
+.off-canvas-menu.current {
     left: 0;
 }
 
-.ofcanvas-logo {
+.off-canvas-logo {
     padding: 20px 15px 20px 10px;
 }
 
-.ofcanvas-logo a {
+.off-canvas-logo a {
     display: flex;
     align-items: center;
 }
 
-.ofcanvas-logo a img {
+.off-canvas-logo a img {
     max-width: 40px;
     margin-right: 8px;
 }
 
-.ofcanvas-logo a span {
+.off-canvas-logo a span {
     font-family: 'Elsie', cursive;
     font-weight: 400;
     font-size: 24px;
     color: #FFDE9F;
 }
 
-.ofcavas-menu ul {
+.off-canvas-menu ul {
     text-align: center;
 }
 
-.ofcavas-menu ul li {
+.off-canvas-menu ul li {
     padding-top: 75px;
 }
 
-.ofcavas-menu li a {
+.off-canvas-menu li a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -354,91 +354,35 @@ body {
     transition: 0.2s all ease;
 }
 
-.ofcavas-menu li a:hover,
-.ofcavas-menu li #active {
+.off-canvas-menu li a:hover,
+.off-canvas-menu li #active {
     text-decoration: underline;
 }
 
-.ofcavas-menu ul li:first-child {
+.off-canvas-menu ul li:first-child {
     padding-top: 25px;
 }
 
-.offcanvas-bottom {
+.off-canvas-bottom {
     padding: 15px 15px;
     margin-top: auto;
     text-align: right;
 }
 
-.offcanvas-bottom span {
+.off-canvas-bottom span {
     cursor: pointer;
 }
 
-.offcanvas-bottom span img {
+.off-canvas-bottom span img {
     max-width: 28px;
 }
-
-/*========== Page loader CSS ==========*/
-#preloader {
-    position: fixed;
-    background: #0B1315;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99999;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.off-canvas-menu {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
 }
 
-.loader3 {
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    padding: 0;
-    text-align: left;
-}
-
-.loader3 span {
-    position: absolute;
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 100%;
-    background: #FFDE9F;
-    -webkit-animation: loader3 1.5s linear infinite;
-    animation: loader3 1.5s linear infinite;
-}
-
-.loader3 span:last-child {
-    animation-delay: -0.9s;
-    -webkit-animation-delay: -0.9s;
-}
-
-@keyframes loader3 {
-    0% {
-        transform: scale(0, 0);
-        opacity: 0.8;
-    }
-
-    100% {
-        transform: scale(1, 1);
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes loader3 {
-    0% {
-        -webkit-transform: scale(0, 0);
-        opacity: 0.8;
-    }
-
-    100% {
-        -webkit-transform: scale(1, 1);
-        opacity: 0;
-    }
+.off-canvas-menu.open {
+    transform: translateX(0);
 }
 
 
@@ -1924,12 +1868,12 @@ body {
     display: none;
 }
 
-/*======= resturent-area start ========*/
-.resturent-sample img {
+/*======= restaurant-area start ========*/
+.restaurant-sample img {
     width: 100%;
 }
 
-.resturent-btn a {
+.restaurant-btn a {
     font-weight: 500;
     font-size: 18px;
     text-align: center;
@@ -1941,19 +1885,19 @@ body {
     transition: 0.2s all ease;
 }
 
-.resturent-btn a:hover {
+.restaurant-btn a:hover {
     opacity: 0.85;
 }
 
-.resturant-maniprt .pers-left img {
+.restaurant-main .pers-left img {
     width: 100%;
 }
 
-.resturant-maniprt .pers-right p {
+.restaurant-main .pers-right p {
     font-weight: 400;
 }
 
-.resturant-maniprt .about-item {
+.restaurant-main .about-item {
     margin-top: 30px;
 }
 

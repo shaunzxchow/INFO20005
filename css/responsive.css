@@ -587,7 +587,7 @@ Small Screen - Tablate
     	font-size: 12px;
     }
 
-    .ofcavas-menu {
+    .off-canvas-menu {
         display: flex;
     	flex-direction: column;
     }
@@ -600,11 +600,11 @@ Small Screen - Tablate
 		max-width: 720px;
 	}
 
-	.ofcavas-menu {
+	.off-canvas-menu {
 		width: 200px;
 	}
 
-	.ofcanvas-logo {
+	.off-canvas-logo {
 	    padding: 25px 20px 20px 15px;
 	}
 
@@ -1131,7 +1131,7 @@ Small Screen - Tablate
     	font-size: 16px;
     }
 
-    .resturent-bottom .about-cnt h4 {
+    .restaurant-bottom .about-cnt h4 {
     	font-size: 21.5px;
     }
 
@@ -1823,16 +1823,16 @@ Small Screen - Mobile
 		display: block;
 	}
 
-	.resturent-sample {
+	.restaurant-sample {
 		display: none;
 	} 
 
-	.resturant-maniprt .pers-main {
+	.restaurant-main .pers-main {
 		display: block;
 		padding-top: 40px;
 	}
 
-	.resturant-maniprt .pers-main > div {
+	.restaurant-main .pers-main > div {
 		width: 100%;
 	}
 
@@ -1846,15 +1846,15 @@ Small Screen - Mobile
 		object-fit: cover;
 	}
 
-	.resturant-maniprt .pers-left {
+	.restaurant-main .pers-left {
 		display: none;
 	}
 
-	.resturant-maniprt .pers-right h6 {
+	.restaurant-main .pers-right h6 {
 		display: none;
 	}
 
-	.resturant-maniprt .pers-right h2 {
+	.restaurant-main .pers-right h2 {
 		font-size: 27px;
 		margin-top: 0;
 		margin-bottom: 10px;
@@ -1863,7 +1863,7 @@ Small Screen - Mobile
 	.shape-index,
 	.secret-area,
 	.picks-area,
-	.resturent-btn {
+	.restaurant-btn {
 		display: none;
 	}
 
